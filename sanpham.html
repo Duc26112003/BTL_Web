@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./assets/img/11zon_cropped.png" type="image/x-icon" style="border-radius: 50%;">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Cửa hàng bán máy tính </title>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header-logo">
+                <a href="trangchu.html">
+                    <img src="./assets/img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="header-search">
+                <input type="text"  class="header__search-input" placeholder="Bạn cần tìm sản phẩm nào ">           
+            </div>
+            <div class="btnSearch">
+                <i class="fa-solid fa-magnifying-glass  icon-search"></i>
+            </div>
+            <div class="location-cart">
+                <ul>
+                    <li>
+                        <a href="">
+                            <i class="fa-solid fa-location-dot icon-location"></i>
+                &nbsp;&nbsp;Siêu thị gần nhất
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./Giohang.html" class="cart">
+                            <i class="fa-solid fa-cart-shopping icon-cart"></i>
+                           Giỏ hàng (2)
+                        </a>
+                    </li>
+                </ul>
+            </div>           
+        </header>
+        <div class="header-navbar">
+                <ul>
+                    <li class="header-list">
+                        <i class="fa-solid fa-list fa-solid-icon"></i>
+                        <a href="">
+                            Danh mục sản phẩm 
+                        </a>
+                        
+                        <div class="list-box">
+                            <ul>                               
+                                <li class="list-box-item">
+                                    <i class="fa-solid fa-laptop icon-navbar"></i>
+                                    <a href="">Laptop</a>
+    
+                                </li>    
+    
+                                <li class="list-box-item">
+                                    <i class="fa-solid fa-keyboard icon-navbar"></i>
+                                    <a href="">Linh,Phụ Kiện laptop</a>
+    
+                                </li>   
+                               
+                                <li class="list-box-item">
+                                    <i class="fa-solid fa-display icon-navbar"></i>
+                                    <a href="">PC </a>
+    
+                                </li>   
+                                  
+                  
+                            </ul>
+                        </div>
+                    </li>
+    
+                    <li>
+                        <a href="">
+                            Tìm theo hãng 
+                            <i class="fa-solid fa-angle-down icon-down"></i>
+                        </a>
+                        <div class="list-box2">
+                            <ul>
+                                <li class="list-box-item">
+                                    <a>Chuyên trang Apple </a>
+                                </li>
+                                <li class="list-box-item">
+                                    <a>Chuyên trang acer</a>
+                                </li>
+                                <li class="list-box-item">
+                                    <a>Chuyên trang Asus</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+    
+                    <li><a href="">
+                        Laptop Mới 
+                        <i class="fa-solid fa-angle-down icon-down"></i>
+                    </a>
+                    </li>
+    
+                    <li><a href="">
+                        Laptop Cũ 
+                        <i class="fa-solid fa-angle-down icon-down"></i>
+                    </a>
+                    </li>
+                    <li><a href="">
+                        <i class="fa-solid fa-credit-card"></i>
+                        Trả góp 
+                    </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Tin tuc 
+                            <i class="fa-solid fa-angle-down icon-down"></i>
+                        </a>
+                    </li>
+                </ul>
+        </div>
+        <!-- Container -->
+        <div class="container">
+            <!-- img banner 1  -->
+            <div class="banner1">
+                <img id="image" src="./assets/img/banner1.jpg"  alt="" style="width: 100%;"> 
+                <div class="control-panel">
+                    <button class="btn-prev-product" onclick="previousImage()" >
+                        <i class="fa-solid fa-circle-chevron-left fa-solid-left"></i>
+                    </button>
+                    <button class="btn-next-product"onclick="nextImage()">
+                        <i class="fa-solid fa-circle-chevron-right fa-solid-right"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- logo cac hang  -->
+            <div class="manulist ">
+                <div class="manulist-logo">
+                    <div class="item-facturer">
+                        <a href="/laptop-apple-macbook" >
+                            <img src="./assets/img/macbook.jpg" alt="" class="logo">
+                        </a>
+                    </div>
+                    <div class="item-facturer">
+                        <a href="/laptop-dell"  >
+                            <img src="./assets/img/dell.jpg" alt="" class="logo">
+                        </a>
+                    </div>
+                    <div class="item-facturer">
+                        <a href="/laptop-asus">
+                            <img src="./assets/img/asus.jpg" alt="" class="logo">
+                        </a>
+                    </div>
+                    <div class="item-facturer">
+                        <a href="/laptop-acer">
+                            <img src="./assets/img/acer.jpg" alt=""  class="logo" >
+                        </a>
+                    </div>
+                    <div class="item-facturer">
+                        <a href="/laptop-masstel">
+                            <img src="./assets/img/masstel.jpg" alt="" class="logo">
+                        </a>
+                    </div>
+                    <div class="item-facturer">
+                        <a href="/laptop-lenovo" >
+                            <img src="./assets/img/lenovo.png" alt="" class="logo">
+                        </a>
+                    </div>
+                    <div class="item-facturer">
+                        <a href="/laptop-hp">
+                            <img src="./assets/img/hp.png" alt="" class="logo">
+                        </a>
+                    </div>
+                    <div class="item-facturer">
+                        <a href="/laptop-msi" >
+                            <img src="./assets/img/msi.jpg" alt="" class="logo">
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- Product 1  -->
+            <!-- img banner 2 -->
+            <div class="banner2 mt ">
+                <img src="./assets/img/1_87749121701032023.jpg" alt="" class="img-banner">
+            </div>
+
+            <!-- filter -->
+            <div class="filter mt">
+                <ul>
+                    <li class="fmanu">
+                        <h3>Laptop :</h3>   
+                    </li>
+                    <li class="selection">
+                        <select id="li_sapxep1" class="sort">
+                            <option selected="selected" value="DangHot">Sản phẩm nổi bật</option>
+                            <option value="MoiNhat">Mới nhất</option>
+                            <option value="XemNhieu">Xem nhiều nhất</option>
+                            <option value="GiaCaoDan">Giá từ thấp đến cao</option>
+                            <option value="GiaThapDan">Giá từ cao đến thấp</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+            
+           <!-- Product laptop -->
+           <div class="home-product mt ">
+               <div class="product">
+                   <a class="home-product-item" href="./chitietsanphan.html">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                       <div class="home-product-item__img">
+                            <img src="./assets/img/a1.jpg" alt=""  >
+                        </div>
+
+                       <h4 class="home-product-item__name">
+                        MTXT GIÁO DỤC Masstel E140 Intel Celeron N4120/ 4GB Ram/ 128GB SSD/ 14.0 Inch HD/ Win 10 Pro/ Grey
+                       </h4>
+
+                       <div class="home-product-item__price">
+                            <span class="price">4.999.000 ₫</span>
+                            <span class="home-product-item__price-old">12.690.000 ₫</span>
+                       </div>
+
+                       <div class="home-product-item__action">                          
+                        
+                            Khách hàng được hưởng 2 ưu đãi sau:
+                        
+                            1. Ưu đãi độc quyền Laptop giáo dục Masstel:
+                            Sử dụng miễn phí trong vòng 2 năm trọn bộ gồm 10 khóa học kỹ năng số và phần mềm bảo vệ học sinh trong vòng 2 năm trị giá 1.000.000đ
+                            Sử dụng miễn phí trong vòng 2 năm toàn bộ hệ thống học liệu Nexta Edu với 3 môn học Toán-Tiếng Việt-Tiếng Anh giành cho giáo viên và học sinh từ lớp 1 đến lớp 5 trị giá 3.000.000đ
+                            Tăng thời hạn bảo hành Laptop từ 18 lên 24 tháng (2 năm)
+                        
+                            2. Ưu đãi Viettel Store:
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+                        
+                       </div>                                           
+                   </a>
+               </div>  
+               <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div  class="home-product-item__img">
+                            <img src="./assets/img/a2.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT GIÁO DỤC Masstel E140 Intel Celeron N4120/ 4GB Ram/ 128GB SSD/ 14.0 Inch HD/ Win 10 Pro/ Grey
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">6.490.000 ₫</span>
+                            <span class="home-product-item__price-old">12.690.000 ₫</span>
+
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+                            Khách hàng được hưởng 2 ưu đãi sau:
+                        
+                            1. Ưu đãi độc quyền Laptop giáo dục Masstel:
+                            Sử dụng miễn phí trong vòng 2 năm trọn bộ gồm 10 khóa học kỹ năng số và phần mềm bảo vệ học sinh trong vòng 2 năm trị giá 1.000.000đ
+                            Sử dụng miễn phí trong vòng 2 năm toàn bộ hệ thống học liệu Nexta Edu với 3 môn học Toán-Tiếng Việt-Tiếng Anh giành cho giáo viên và học sinh từ lớp 1 đến lớp 5 trị giá 3.000.000đ
+                            Tăng thời hạn bảo hành Laptop từ 18 lên 24 tháng (2 năm)
+                        
+                            2. Ưu đãi Viettel Store:
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+                        
+                        </div>                                           
+                    </a>
+                </div>                                                                                                               
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div class="home-product-item__img">
+                            <img src="./assets/img/a3.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT HP 15s-du1105TU Core i3-10110U/ 4GB RAM/ 256GB SSD/ 15.6” HD/ VGA ON/ Win11/ Silver/ 2Z6L3PA
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">10.999.000 ₫</span>
+                        </div>
+
+                        <div class="home-product-item__action">                                                      
+                            Tặng phiếu mua hàng 1.000.000đ (đã trừ vào giá)
+                            Tặng Balo/ Túi xách Laptop
+                            Tặng chuột không dây PADO PM818     
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính                                  
+                        </div>                                           
+                    </a>
+                </div>    
+
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div class="home-product-item__img">
+                            <img src="./assets/img/a4.jpg" alt="">
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT GIÁO DỤC Masstel E116 Intel Celeron N4020/ 4GB Ram/ 128GB eMMC/ 11.6 Inch HD/ Win 10 Pro/ Grey
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">4.999.000 ₫</span>
+                        </div>
+
+                        <div class="home-product-item__action">                                                   
+                            Tặng phiếu mua hàng 1.300.000đ (đã trừ vào giá) (số lượng có hạn)
+                            Tặng túi/Balo     
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính                       
+                        </div>                                           
+                    </a>
+                </div>    
+
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div  class="home-product-item__img">
+                            <img src="./assets/img/a5.jpg" alt="">
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            Laptop HP 240 G8 617K5PA (i3-1005G1/ 4GB/ 256GB SSD/ 14FHD/ WIN11/ Silver) 
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">8.999.000 ₫</span>
+                        </div>
+
+                        <div class="home-product-item__action">                                                      
+                            Tặng phiếu mua hàng 2.000.000đ (đã trừ vào giá)
+                            Tặng túi/Balo     
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính                       
+                        </div>                                           
+                    </a>
+                </div>    
+
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div  class="home-product-item__img">
+                            <img src="./assets/img/a6.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            Laptop HP 240 G8 617K2PA (i3-1005G1/ 4GB/ 512GB SSD/ 14HD/ VGA ON/ WIN11/ Silver)
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">8.999.000 ₫</span>
+                            <span class="home-product-item__price-old">12.690.000 ₫</span>
+
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+                            Khách hàng được hưởng 2 ưu đãi sau:
+                        
+                            1. Ưu đãi độc quyền Laptop giáo dục Masstel:
+                            Sử dụng miễn phí trong vòng 2 năm trọn bộ gồm 10 khóa học kỹ năng số và phần mềm bảo vệ học sinh trong vòng 2 năm trị giá 1.000.000đ
+                            Sử dụng miễn phí trong vòng 2 năm toàn bộ hệ thống học liệu Nexta Edu với 3 môn học Toán-Tiếng Việt-Tiếng Anh giành cho giáo viên và học sinh từ lớp 1 đến lớp 5 trị giá 3.000.000đ
+                            Tăng thời hạn bảo hành Laptop từ 18 lên 24 tháng (2 năm)
+                        
+                            2. Ưu đãi Viettel Store:
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+                        
+                        </div>                                           
+                    </a>
+                </div>    
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div  class="home-product-item__img">
+                            <img src="./assets/img/a7.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT Dell Inspiron 15 3511C Intel Core i3 1115G4/ 4GB RAM/ 256GB SSD/ Intel UHD Graphics/ 15.6inch FHD/ 3 Cells 41 Whrs/ Win 11 OFFICE+HS 21/ Đen/ P112F001CBL
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">10.999.000 ₫</span>
+                        </div>
+
+                        <div class="home-product-item__action">                                                  
+                            Giảm giá 1.000.000đ (đã trừ vào giá)
+                            Tặng chuột không dây PADO PM818
+                            Tặng Balo/ Túi xách Laptop     
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính                     
+                        </div>                                           
+                    </a>
+                </div>    
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div class="home-product-item__img">
+                            <img src="./assets/img/a8.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT HP Pavilion 14-dv2070TU 7C0V9PA (Core i3 1215U/ 8GB/ 256GB SSD/ Intel UHD Graphics/ 14.0inch Full HD/ Windows 11 Home/ Silver)
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">13.999.000 ₫</span>
+                        </div>
+
+                        <div class="home-product-item__action">                                                   
+                            Tặng phiếu mua hàng 1.300.000đ (đã trừ vào giá)
+                            Tặng Balo/ Túi xách Laptop
+                            Tặng chuột không dây PADO PM818   
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính                  
+                        </div>                                           
+                    </a>
+                </div>    
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div   class="home-product-item__img">
+                            <img src="./assets/img/a9.jpg" alt="">
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT GIÁO DỤC Masstel E116 Intel Celeron N4020/ 4GB Ram/ 128GB eMMC/ 11.6 Inch HD/ Win 10 Pro/ Grey
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">4.999.000 ₫</span>
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+                            Khách hàng được hưởng 2 ưu đãi sau:
+                        
+                            1. Ưu đãi độc quyền Laptop giáo dục Masstel:
+                            Sử dụng miễn phí trong vòng 2 năm trọn bộ gồm 10 khóa học kỹ năng số và phần mềm bảo vệ học sinh trong vòng 2 năm trị giá 1.000.000đ
+                            Sử dụng miễn phí trong vòng 2 năm toàn bộ hệ thống học liệu Nexta Edu với 3 môn học Toán-Tiếng Việt-Tiếng Anh giành cho giáo viên và học sinh từ lớp 1 đến lớp 5 trị giá 3.000.000đ
+                            Tăng thời hạn bảo hành Laptop từ 18 lên 24 tháng (2 năm)
+                        
+                            2. Ưu đãi Viettel Store:
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+                        
+                        </div>                                           
+                    </a>
+                </div>    
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div class="home-product-item__img">
+                            <img src="./assets/img/a10.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT Acer TravelMate B3 TMB311-31-P49D Pentium N5030 / RAM 4Gb/ SSD 256Gb/ 11.6 Inch/ VGA on/ Windows 11 home/ Shale Black/ NX.VNFSV.005
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">4.999.000 ₫</span>
+                        </div>
+
+                        <div class="home-product-item__action">                                                
+                            Giá và khuyến mãi áp dụng đặt và nhận hàng từ 08/03-31/03
+                        </div>                                           
+                    </a>
+                </div>    
+
+                <div class="more-product">
+                    <a href="">Xem thêm </a>
+                </div>      
+           </div>
+
+            <!-- Product 2  -->
+            <!-- img banner 2 -->
+            <div class="banner2 mt  pd ">
+                <img src="./assets/img/banner3.jpg" alt="" class="img-banner">
+            </div>
+
+            <!-- filter -->
+            <div class="filter mt">
+                <ul>
+                    <li class="fmanu">
+                        <h3>Laptop :</h3>   
+                    </li>
+                    <li class="selection">
+                        <select id="li_sapxep1" class="sort">
+                            <option selected="selected" value="DangHot">Sản phẩm nổi bật</option>
+                            <option value="MoiNhat">Mới nhất</option>
+                            <option value="XemNhieu">Xem nhiều nhất</option>
+                            <option value="GiaCaoDan">Giá từ thấp đến cao</option>
+                            <option value="GiaThapDan">Giá từ cao đến thấp</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+            
+           <!-- Product laptop -->
+           <div class="home-product mt ">
+               <div class="product">
+                   <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                       <div  class="home-product-item__img">
+                            <img src="./assets/img/a11.jpg" alt="" >
+                        </div>
+
+                       <h4 class="home-product-item__name">
+                        MTXT HP 14s-dq5053TU - Intel Core i5-1235U - U15 / 8GB DDR4 2DM 3200 / SSD 512Gb / Intel Iris Xe / 14 Inch HD / Win 11 home / Natural Silver / 1Y, 6R9M6PA
+                       </h4>
+
+                       <div class="home-product-item__price">
+                           <span class="price">16.999.000 ₫</span>
+                           <span class="home-product-item__price-old">18.690.000 ₫</span>
+
+                       </div>
+
+                       <div class="home-product-item__action">                          
+             
+                            Tặng phiếu mua hàng 1.000.000đ (đã trừ vào giá)
+                            Tặng chuột PM818    
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+                                
+                       </div>                                           
+                   </a>
+               </div>  
+               <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div  class="home-product-item__img" >
+                            <img src="./assets/img/a12.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT HP 240 G8  Core i5-1135G7/ 8GB RAM/ 256GB SSD/ 14" FHD/ VGA ON/ WIN10/ Silver/ 518V6PA
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">14.999.000 ₫</span>
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+                            Tặng phiếu mua hàng 1.000.000đ (đã trừ vào giá)
+                            Tặng chuột PM818    
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+                        
+                        </div>                                           
+                    </a>
+                </div>                                                                                                               
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div  class="home-product-item__img">
+                            <img src="./assets/img/a13.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT HP 14s-dp5054TU 6R9M7PA (i5-1235U/ 8Gb/ 256GB SSD/ 14HD/ VGA ON/ Win 11/ Silver)
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">4.999.000 ₫</span>
+                            <span class="home-product-item__price-old">8.690.000 ₫</span>
+
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                       
+                            Tặng phiếu mua hàng 500.000đ (đã trừ vào giá)
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+            
+                        </div>                                           
+                    </a>
+                </div>    
+
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div  class="home-product-item__img">
+                            <img src="./assets/img/a14.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT Dell Vostro 3405 Ryzen 5-3500U/ 8GB RAM/ 512GB SSD/ AMD Radeon™/ 14.0 inch FHD/ Win 11/ Office ST/ BLACK/ V4R53500U003W1
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">14.999.000 ₫</span>
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+                            Tặng phiếu mua hàng 1.000.000đ (đã trừ vào giá)
+                            Tặng chuột không dây PADO PM818
+                            Tặng Balo/ Túi xách Laptop     
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+            
+                        </div>                                           
+                    </a>
+                </div>    
+
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div  class="home-product-item__img">
+                            <img src="./assets/img/a15.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT Dell Latitude 3420 Core i5 1135G7/ 8Gb Ram/ 256Gb SSD / 14.0" HD/VGA ON/ Fedora/Black/L3420I5SSD
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">17.999.000 ₫</span>
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+                            Tặng chuột không dây PADO PM818    
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+            
+                        </div>                                           
+                    </a>
+                </div>    
+
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div  class="home-product-item__img">
+                            <img src="./assets/img/a16.jpg" alt=""  >
+                        </div>
+
+                        <h4 class="home-product-item__name">                          
+                            MTXT GIÁO DỤC Masstel E116 Intel Celeron N4020/ 4GB Ram/ 128GB eMMC/ 11.6 Inch HD/ Win 10 Pro/ Grey
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">14.999.000 ₫</span>
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+                            Tặng phiếu mua hàng 500.000đ (đã trừ vào giá)
+                            Tặng Balo/ Túi xách Laptop
+                            Tặng chuột không dây PADO PM818
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+            
+                        </div>                                           
+                    </a>
+                </div>    
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div class="home-product-item__img" >
+                            <img src="./assets/img/a17.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT Dell Inspiron 3520 N5I5122W1 (Core i5 1235U/ 8GB/ 256GB SSD/ Intel Iris Xe Graphics/ 15.6inch Full HD/ Windows 11 Home/ Black/ Vỏ nhựa)
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">14.999.000 ₫</span>
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+                            Tặng phiếu mua hàng 500.000đ (đã trừ vào giá)
+                            Tặng Balo/ Túi xách Laptop
+                            Tặng chuột không dây PADO PM818
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+            
+                        </div>                                           
+                    </a>
+                </div>    
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div  class="home-product-item__img" >
+                            <img src="./assets/img/a18.jpg" alt="">
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT Asus ExpertBook B1400CEAE Intel Core i5-1135G7/ RAM 8GB/ 512GB SSD/ Intel Iris Xe Graphics/ 14inch FHD/ Endless/ Chuột/ Black/ EK3725
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">19.999.000 ₫</span>
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+                            Giao hàng miễn phí (nếu cách Viettel Store dưới 10km). Bảo hành chính hãng
+    
+                        </div>                                           
+                    </a>
+                </div>    
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div   class="home-product-item__img" >
+                            <img src="./assets/img/a19.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT Acer Gaming Aspire 7 A715-42G-R6ZR Ryzen R5-5500U/ 8GB RAM/ 512GB SSD/ GTX 1650 4GB/ 15.6 inch FHD/ Win 10/ BLACK/ NH.QAYSV.003
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">15.999.000 ₫</span>
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+                            Giá và khuyến mãi áp dụng đặt và nhận hàng từ 08/03-31/03
+    
+                        </div>                                           
+                    </a>
+                </div>    
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div  class="home-product-item__img" >
+                            <img src="./assets/img/a20.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT Dell Inspiron 3511 N3511A Core i3-115G4/ 4GB RAM/ 256 GB SSD/ 15.6" FHD/ WIN 10/ Office HS 19/ BLACK/ P112F001ABL
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">4.999.000 ₫</span>
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                            Giao hàng miễn phí (nếu cách Viettel Store dưới 10km). Bảo hành chính hãng
+                        </div>                                           
+                    </a>
+                </div>    
+                <div class="more-product" >
+                    <a href="">Xem thêm </a>
+                    
+                </div>      
+           </div>
+           
+            <!-- Product 3  -->
+            <!-- img banner 2 -->
+            <div class="banner2 mt  ">
+                <img src="./assets/img/banner4.jpg" alt="" class="img-banner">
+            </div>
+
+            <!-- filter -->
+            <div class="filter mt">
+                <ul>
+                    <li class="fmanu">
+                        <h3>Laptop :</h3>   
+                    </li>
+                    <li class="selection">
+                        <select id="li_sapxep1" class="sort">
+                            <option selected="selected" value="DangHot">Sản phẩm nổi bật</option>
+                            <option value="MoiNhat">Mới nhất</option>
+                            <option value="XemNhieu">Xem nhiều nhất</option>
+                            <option value="GiaCaoDan">Giá từ thấp đến cao</option>
+                            <option value="GiaThapDan">Giá từ cao đến thấp</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+            
+           <!-- Product laptop -->
+           <div class="home-product mt ">
+               <div class="product">
+                   <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                       <div class="home-product-item__img" >
+                            <img src="./assets/img/a21.jpg" alt="">
+                        </div>
+
+                       <h4 class="home-product-item__name">
+                        MTXT Apple Macbook Air M1/ 8GB/ 256GB/ Silver/ Touch ID sensor/ MGN93SA/A
+                       </h4>
+
+                       <div class="home-product-item__price">
+                           <span class="price">21.599.000 ₫</span>
+                           <span class="home-product-item__price-old">26.690.000 ₫</span>
+
+                       </div>
+
+                       <div class="home-product-item__action">                          
+                       
+                            Tặng phiếu mua hàng 5.200.000đ (đã trừ vào giá)
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+            
+                       </div>                                           
+                   </a>
+               </div>  
+               <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div   class="home-product-item__img">
+                            <img src="./assets/img/a22.jpg" alt=""  >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT Apple Macbook Air M1/ 8GB/ 256GB/ Space Grey/ Touch ID sensor/ MGN63SA/A
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">24.999.000 ₫</span>
+                            <span class="home-product-item__price-old">26.690.000 ₫</span>
+
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+                            Tặng phiếu mua hàng 5.200.000đ (đã trừ vào giá)
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+            
+                        </div>                                           
+                    </a>
+                </div>                                                                                                               
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div class="home-product-item__img">
+                            <img src="./assets/img/a23.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT Apple Macbook Air M1/ 8GB/ 256GB/ Gold/ Touch ID sensor/ MGND3SA/A
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">24.999.000 ₫</span>
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                            Tặng phiếu mua hàng 5.200.000đ (đã trừ vào giá)
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+                        </div>                                           
+                    </a>
+                </div>    
+
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div  class="home-product-item__img">
+                            <img src="./assets/img/a24.jpg" alt="">
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            Laptop Apple MacBook Pro M2 2022 8GB/512GB/10-core GPU (MNEQ3SA/A)
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">24.999.000 ₫</span>
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+                            Tặng phiếu mua hàng 7.500.000đ (đã trừ vào giá)
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+            
+                        </div>                                           
+                    </a>
+                </div>    
+
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div   class="home-product-item__img">
+                            <img src="./assets/img/a35.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            Laptop Apple Macbook Air M2 8GPU/8Gb/256Gb Silver - MLXY3SA/A
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">40.999.000 ₫</span>
+                            <span class="home-product-item__price-old">42.690.000 ₫</span>
+
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+                            Tặng phiếu mua hàng 4.700.000đ (đã trừ vào giá)
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+            
+                        </div>                                           
+                    </a>
+                </div>    
+
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div  class="home-product-item__img">
+                            <img src="./assets/img/a26.jpg" alt=""  >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                           
+                            MTXT GIÁO DỤC Masstel E116 Intel Celeron N4020/ 4GB Ram/ 128GB eMMC/ 11.6 Inch HD/ Win 10 Pro/ Grey
+                        
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">34.999.000 ₫</span>
+                            <span class="home-product-item__price-old">35.690.000 ₫</span>
+
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+                            Tặng phiếu mua hàng 4.700.000đ (đã trừ vào giá)
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+            
+                        </div>                                           
+                    </a>
+                </div>    
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div class="home-product-item__img">
+                            <img src="./assets/img/a27.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            Laptop Apple MacBook Pro M2 2022 8GB/256GB/10-core GPU (MNEH3SA/A)
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">28.999.000 ₫</span>
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+                            Tặng phiếu mua hàng 5.600.000đ (đã trừ vào giá)
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+            
+                        </div>                                           
+                    </a>
+                </div>    
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div  class="home-product-item__img">
+                            <img src="./assets/img/a28.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            Laptop Apple MacBook Pro M2 2022 8GB/256GB/10-core GPU (MNEP3SA/A)
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">30.999.000 ₫</span>
+                            <span class="home-product-item__price-old">33.690.000 ₫</span>
+
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+        Tặng phiếu mua hàng 5.600.000đ (đã trừ vào giá)
+        Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+            
+                        </div>                                           
+                    </a>
+                </div>    
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div  class="home-product-item__img">
+                            <img src="./assets/img/a29.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            Laptop Apple Macbook Air M2 8GPU/8Gb/256Gb Starlight-MLY13SA/A
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">40.999.000 ₫</span>
+                            <span class="home-product-item__price-old">46.690.000 ₫</span>
+
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+        Tặng phiếu mua hàng 4.700.000đ (đã trừ vào giá)
+        Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+            
+                        </div>                                           
+                    </a>
+                </div>    
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div  class="home-product-item__img">
+                            <img src="./assets/img/a30.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            Laptop Apple Macbook Air M2 8GPU/8Gb/256Gb Space Gray - MLXW3SA/A
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">4.999.000 ₫</span>
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+        Tặng phiếu mua hàng 4.700.000đ (đã trừ vào giá)
+        Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+            
+                        </div>                                           
+                    </a>
+                </div>    
+
+                <div class="more-product">
+                    <a href="">Xem thêm </a>
+                </div>      
+           </div>
+            <!-- Product 4  -->
+            <!-- img banner 2 -->
+            <div class="banner2 mt ">
+                <img src="./assets/img/banner5.jpg" alt="" class="img-banner">
+            </div>
+
+            <!-- filter -->
+            <div class="filter mt">
+                <ul>
+                    <li class="fmanu">
+                        <h3>Laptop :</h3>   
+                    </li>
+                    <li class="selection">
+                        <select id="li_sapxep1" class="sort">
+                            <option selected="selected" value="DangHot">Sản phẩm nổi bật</option>
+                            <option value="MoiNhat">Mới nhất</option>
+                            <option value="XemNhieu">Xem nhiều nhất</option>
+                            <option value="GiaCaoDan">Giá từ thấp đến cao</option>
+                            <option value="GiaThapDan">Giá từ cao đến thấp</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+            
+           <!-- Product laptop -->
+           <div class="home-product mt" style="margin-bottom: 30px;">
+               <div class="product">
+                   <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                       <div  class="home-product-item__img">
+                            <img src="./assets/img/a31.jpg" alt=""  >
+                        </div>
+
+                       <h4 class="home-product-item__name">
+                            MTXT GIÁO DỤC Masstel E116 Intel Celeron N4020/ 4GB Ram/ 128GB eMMC/ 11.6 Inch HD/ Win 10 Pro/ Grey
+                       </h4>
+
+                       <div class="home-product-item__price">
+                           <span class="price">24.999.000 ₫</span>
+                       </div>
+
+                       <div class="home-product-item__action">                          
+                        
+                        Tặng phiếu mua hàng 4.700.000đ (đã trừ vào giá)
+                        Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+                        
+                       </div>                                           
+                   </a>
+               </div>  
+               <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div class="home-product-item__img">
+                            <img src="./assets/img/a32.jpg" alt=""  >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT GIÁO DỤC Masstel E116 Intel Celeron N4020/ 4GB Ram/ 128GB eMMC/ 11.6 Inch HD/ Win 10 Pro/ Grey
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">25.999.000 ₫</span>
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+                            Tặng phiếu mua hàng 4.700.000đ (đã trừ vào giá)
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+                        
+                        </div>                                           
+                    </a>
+                </div>                                                                                                               
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div class="home-product-item__img">
+                            <img src="./assets/img/a33.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT GIÁO DỤC Masstel E116 Intel Celeron N4020/ 4GB Ram/ 128GB eMMC/ 11.6 Inch HD/ Win 10 Pro/ Grey
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">26.999.000 ₫</span>
+                            <span class="home-product-item__price-old">30.690.000 ₫</span>
+
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+                            Tặng phiếu mua hàng 4.700.000đ (đã trừ vào giá)
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+                        
+                        </div>                                           
+                    </a>
+                </div>    
+
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Bán chạy 
+                        </div>
+
+                        <div  class="home-product-item__img">
+                            <img src="./assets/img/a34.jpg" alt=""  >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT GIÁO DỤC Masstel E116 Intel Celeron N4020/ 4GB Ram/ 128GB eMMC/ 11.6 Inch HD/ Win 10 Pro/ Grey
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">30.999.000 ₫</span>
+                            <span class="home-product-item__price-old">32.690.000 ₫</span>
+
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+                            Tặng phiếu mua hàng 4.700.000đ (đã trừ vào giá)
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+                        
+                        </div>                                           
+                    </a>
+                </div>    
+
+                <div class="product">
+                    <a class="home-product-item" href="#">
+                        <div class="icon-hosting">
+                            Số lượng có hạn  
+                        </div>
+
+                        <div class="home-product-item__img">
+                            <img src="./assets/img/a36.jpg" alt="" >
+                        </div>
+
+                        <h4 class="home-product-item__name">
+                            MTXT GIÁO DỤC Masstel E116 Intel Celeron N4020/ 4GB Ram/ 128GB eMMC/ 11.6 Inch HD/ Win 10 Pro/ Grey
+                        </h4>
+
+                        <div class="home-product-item__price">
+                            <span class="price">34.999.000 ₫</span>
+                            <span class="home-product-item__price-old">36.690.000 ₫</span>
+
+                        </div>
+
+                        <div class="home-product-item__action">                          
+                        
+                            Tặng phiếu mua hàng 4.700.000đ (đã trừ vào giá)
+                            Giảm giá 50% phần mềm diệt Virus Eset khi mua cùng điện thoại, máy tính
+                        
+                        </div>                                           
+                    </a>
+                </div>    
+
+                 
+                   
+           </div>
+        </div>
+
+        <!-- footer  -->
+        <footer class="footer">
+            <div class="footer-content">
+                <ul class="list-inline">
+                    <li>
+                        <p>Chính sách bảo hành</p>
+                        <p>Chính sách đổi trả </p>
+                        <p>Chính sách giao hàng</p>
+                        <p>Chính sách khui hộp </p>
+                        <p>Phương thức thanh toán</p>
+                        <p>
+                                Xem thêm 
+                            <i class="fa-solid fa-angle-down icon-more"></i>
+                        </p>
+                     </li>
+                    
+                    <li>
+                        <p> Quy chế hoạt động của website </p>
+                        <p>Siêu thị gần nhất (400shop)</p>
+                        <p>Tìm trung tâm bảo hành</p>
+                        <p>Tra cứu hóa đơn</p>
+                        <p>Tuyển dụng </p>
+                       
+                    </li>
+                    
+                    <li>
+                        <div class="color-white">
+                            Tư vấn bán hàng (8h - 22h)
+                            <div><a href="tel:18008123" class="title-16 color-white">1800 8123</a></div>
+                        </div>
+                        <div class="color-white">
+                            CSKH &amp; bảo hành (8h - 22h)
+                            <div><a href="tel:19008096" class="title-16 color-white">1900 8096</a></div>
+                        </div>
+                        <div class="color-white">
+                            Tư vấn KHDN:
+                            <div><a href="tel:02466599666" class="title-16 color-white">02466599666</a></div>
+                        </div>
+                        <div class="color-white">
+                            <a href="https://forms.office.com/r/EtsdfgK3Ab" class="color-white">Khảo sát về thương hiệu Viettel Store</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="social-logo">
+                            <a href=""> 
+                               <img src="./assets/img/trangchu-icon2-tiktok-031122.png" alt="" class="icon" >
+                            </a>
+                            <a href="">
+                                <img src="./assets/img/facebook.jpg" alt="" class="icon" >
+                            </a>
+                            <a href="">
+                                <img src="./assets/img/youtube.jpg" alt="" style="width:50px ; margin-right: 26px;">
+                            </a>
+                            <a href="">
+                                <img src="./assets/img/instra.jpg" alt="" class="icon">
+                            </a>
+                        </div>
+                        <div  style="margin-bottom: 10px;">
+                            <a href="">
+                                <img src="./assets/img/bo-cong-thuong.png" alt="" class="max-width">
+                            </a>
+                            <a href="">
+                                <img src="./assets/img/logo-vtmoney.png" alt="" class="max-width" >
+                            </a>
+                        </div>
+                        <div style="margin-bottom: 10px;">
+                            <a href="">
+                                <img src="./assets/img/Banner_CTTDT_BQP1_02.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>         
+                </ul>
+            </div>
+            <div class="coppy-right">
+                © 2018 Công ty TNHH Nhà nước Một thành viên Thương mại và Xuất nhập khẩu Viettel. Đăng ký doanh nghiệp số 0104831030, do Sở Kế hoạch và Đầu tư Hà Nội cấp lần đầu ngày 25/01/2006, thay đổi lần thứ 38 ngày 01/07/2019.
+                Địa chỉ: Số 01, Phố Giang Văn Minh, phường Kim Mã, quận Ba Đình, Thành phố Hà Nội. Chịu trách nhiệm nội dung: Đinh Sơn Tùng.
+            </div>
+        </footer>
+    </div>
+    <script src="./assets/js/sanpham.js"></script>
+</body>
+
+</html>

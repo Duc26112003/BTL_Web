@@ -1,0 +1,136 @@
+#content-page-product {
+  width: 100%;
+  height: 620px;
+  
+}
+.menu-dropdown li{
+  text-decoration: none;
+  list-style: none;
+  width: 230px;
+  line-height: 40px;
+  background-color:  rgb(56, 164, 197);
+  border-bottom: 1px solid black;
+  position: relative;
+  padding-left: 20px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+
+}
+.icon-menu{
+  position: absolute;
+  color: white;
+  right: 10px;
+  top: 8px;
+  cursor: pointer;
+}
+
+.sub-menu-dropdown li{
+  text-decoration: none;
+  list-style: none;
+  width: 230px;
+  line-height: 40px;
+  background-color: rgb(40, 41, 46) ;
+  border-bottom: 1px solid rgb(124, 124, 124) ;
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  font-size: 14px;
+  cursor: pointer;
+
+}
+.sub-menu-dropdown li:nth-child(1){
+  border-top: 1px solid rgb(124, 124, 124) ;
+}
+.sub-menu-dropdown li:hover{
+  /* background-color:  rgb(56, 164, 197); */
+  cursor: pointer;
+}
+.sub-menu-dropdown{
+  display: none;
+  margin: 0;
+  padding: 0;
+  margin-left: -20px;
+}
+
+.menu {
+  width: 15%;
+  height: 580px;
+  margin: 5px 40px 0px 40px;
+  float: left;
+}
+
+  /* css nút thêm mới xóa nhiều */
+  .add, .delete {
+    color: #fff;
+    background-color: #006ecb;
+    width: 100px;
+    height: 36px;
+    padding: 5px 8px;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+  }
+  .add {
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  th {
+    color: #fff;
+    font-size: 15px;
+    background-color: #006ecb;
+  }
+  .stt {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  }
+  td {
+    text-align: center;
+    height: 30px;
+  }
+  .le {
+    background-color: #eeeeee;
+  }
+
+ .blue {
+  color: blue;
+ }
+  .checkboxx {
+    width: 50px;
+    height: 50px;
+  }
+  .seri {
+    height: 50px;
+    width: 100px;
+  }
+  .nameproduct {
+    width: 230px;
+    height: 50px;
+  }
+  .cate-gory {
+    width: 150px;
+    height: 50px;
+  }
+  .date {
+    width: 150px;
+    height: 50px;
+  }
+  .view, .edit, .deletes {
+    width: 100px;
+    height: 50px;
+    
+  }
+
+.number-page {
+    /* border: solid; */
+    text-align: center;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+a {
+    text-decoration: none;
+    padding-left: 20px;
+    
+}

@@ -1,0 +1,187 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#frame {
+  width: 100%;
+  height: 745px;
+  
+}
+#header-page {
+    width: 100%;
+    height: 120px;
+    border-bottom: solid blue 4px;
+    margin-bottom: 2px;
+}
+
+#header-left {
+  height: 60px;
+  width: 20%;
+  text-align: center;
+  padding-top: 50px;
+  float: left;
+}
+
+#header-right {
+  height: 60px;
+  width: 79%;
+  text-align: center;
+  float: left;
+  padding-top: 50px;
+}
+
+.title {
+  font-size: 25px;
+  color: 	#000000;
+} 
+.log-out {
+  padding-left: 50px;
+  text-decoration: none;
+  color: blue;
+}
+
+#content-page {
+  width: 100%;
+  height: 600px;
+  border-top: red solid 4px;
+  border-bottom: #000000 solid 2px;
+}
+
+.menu {
+  height: 580px;
+  margin: 25px 40px 0px 40px;
+  float: left;
+}
+
+#content {
+  width: 75%;
+  height: 260px;
+  float: left;
+  margin-top: 20px;
+}
+
+/* css bảng home */
+.table-home {
+  width: 100%;
+  height: 100%;
+}
+
+.list-content {
+  height: 120px;
+  width: 200px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.icon-content {
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  color: white;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+.title-content {
+  width: 100%;
+  height: 20px;
+  margin-top: 55px;
+  text-align: center;
+  color: white;
+}
+
+#blue {
+    background-color: RGB(1,170,177);
+}
+#yellow {
+    background-color: RGB(255,142,1);
+}
+#green {
+    background-color: RGB(125,187,0);
+}
+#folder {
+    background-color: RGB(0,111,203);
+}
+#red {
+    background-color: RGB(197,38,32);
+}
+/*  */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    float: left;
+  }
+
+  nav li:hover ul {
+    display: block;
+  }
+  .link {
+    display: block;
+    padding: 10px;
+    background-color: RGB(22,130,186);
+    color: white;
+    border: #000000 solid 1px;
+    text-decoration: none;
+  }
+  
+  .dropdown-menu{
+    width: 260px;
+    background: rgb(56, 164, 197);
+    padding-left: 0px;
+    margin-left: 5px;
+}
+.dropdown-menu .sub-menu{
+    background: #323232;
+    display: none;
+}
+.dropdown-menu li {
+    position: relative;
+    list-style: none;
+    border-bottom: 1px solid #3c3b3b;
+}
+.dropdown-menu a{
+    display: block;
+    padding: 10px 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold ;
+    letter-spacing: 1px;
+    padding-left: 30px;
+}
+
+.dropdown-menu .sub-menu{
+    margin: 0;
+    padding: 0;
+}
+.dropdown-menu .sub-menu a{
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+}
+.icon-menu{
+    color: #f5f5f5;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 15px;
+    padding: 8px;
+    cursor: pointer;
+}
+  .menu ul li {
+    float: none;
+  }
+  
+
+  

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./assets/css/login.css">
+</head>
+<body>
+    <div id="frame">
+        <div id="content-login">
+            <div class="img-login">
+                <img src="./assets/img/logo_login.jpg" style="width: 100%; height: 100%;">
+            </div>
+            <form action="./home.html" method="POST" class="form" id="form-2">
+                <div class="title-login">
+                    <span class="title">Đăng Nhập</span>
+                </div>
+            
+                <div class="form-group">
+                    <label for="username" class="form-label">Tài khoản</label>
+                    <input id="username" name="username" type="text" placeholder="Nhập tài khoản" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="form-label">Mật Khẩu</label>
+                    <input id="password" name="password" type="text" placeholder="Nhập mật khẩu" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+                <input id="btn-register" type="submit" value="Đăng Nhập">
+            </form>
+            
+        </div>
+    </div>
+    <script src="./assets/js/login.js"></script>
+    <script>
+            Validator({
+        form: '#form-2',
+        rules: [
+            Validator.required('#username', 'Vui lòng nhập tên đăng nhập'),
+            Validator.minLength('#username', 5, 'Tên đăng nhập phải có ít nhất 5 kí tự'),
+            Validator.required('#password', 'Vui lòng nhập mật khẩu'),
+            Validator.minLength('#password', 8, 'Mật khẩu phải có ít nhất 8 kí tự')
+        ]
+});
+        // Validator({
+        //   form: '#form-2',
+        //   rules: [
+        //     Validator.username('#username'),
+        //     Validator.password('#password'),
+        //   ]
+        // })
+      </script>
+</body>
+</html>

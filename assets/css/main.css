@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+
+.mt{
+    margin-top: 10px;
+}
+.txt-24 {
+    font-size: 24px;
+    font-weight: 100;
+}
+.pull-right{
+    float: right;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+    
+}
+.p10 {
+    padding: 10px;
+}
